@@ -1,0 +1,22 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 5rem;
+
+    & > i {
+        font-size: 2.4rem;
+        padding: 2rem;
+        cursor: pointer;
+    }
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    min-height: 100vh;
+}

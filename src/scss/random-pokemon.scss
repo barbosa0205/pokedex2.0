@@ -1,0 +1,138 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 60rem;
+    min-height: 30rem;
+    border-radius: 1rem;
+    transition: 0.3s ease;
+    background: #f1f1f1;
+
+    &:hover {
+        transition: 0.3s ease-in-out;
+    }
+
+    & > .refresh {
+        top: 0;
+        right: 0;
+        position: absolute;
+        padding: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        transition: 0.3s ease;
+        color: #a0a0a0;
+
+        &:hover {
+            color: #2e2e2e;
+            transition: 0.3s ease;
+        }
+    }
+
+    & > h3 {
+        font-size: 2.8rem;
+        margin-top: 1.5rem;
+        color: #474747;
+    }
+
+    & > .image-container {
+        border-radius: 1rem;
+        width: 16rem;
+        height: 16rem;
+
+        & > img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .data-container {
+        width: 80%;
+        max-width: 35rem;
+        margin: 2rem 0;
+        padding: 1rem;
+        border-radius: 1rem;
+        background: #dbdbdbe0;
+
+        & h4 {
+            text-align: center;
+            font-size: 2.2rem;
+        }
+    }
+
+    .types-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 1rem;
+
+        & .type {
+            font-size: 2.3rem;
+            font-weight: 700;
+            padding: 1rem 2rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 0 #000000;
+        }
+
+        & .fighting {
+            color: #c54848;
+        }
+        & .flying {
+            color: #8dbdc4;
+        }
+        & .poison {
+            color: #bb68b7;
+        }
+        & .ground {
+            color: #886c4c;
+        }
+        & .rock {
+            color: #706150;
+        }
+        & .bug {
+            color: #66c04a;
+        }
+        & .ghost {
+            color: #bbbaba;
+        }
+        & .steel {
+            color: #afafaf;
+        }
+        & .fire {
+            color: #ff9946;
+        }
+        & .water {
+            color: #57c6e7;
+        }
+        & .grass {
+            color: #26aa68;
+        }
+        & .electric {
+            color: #ffe100;
+        }
+        & .psychic {
+            color: #bb68b7;
+        }
+        & .ice {
+            color: #4c99bd;
+        }
+        & .dragon {
+            color: #cc3737;
+        }
+        & .dark {
+            color: #252525;
+        }
+        & .unknown {
+        }
+        & .shadow {
+        }
+        & .fairy {
+            color: #f8e97b;
+        }
+        & .normal {
+            color: #ececeb;
+        }
+    }
+}
